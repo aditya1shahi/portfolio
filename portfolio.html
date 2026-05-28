@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Aditya Shahi</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Aditya Shahi</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content fade-in">
+          <h1>Hi, I'm Aditya Shahi</h1>
+          <p class="subtitle">Full Stack Developer & Creative Problem Solver</p>
+          <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+        <div class="hero-glow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <p class="fade-in-up">
+            I'm a passionate developer with expertise in building modern web
+            applications. I love turning ideas into reality through clean,
+            efficient code and thoughtful design. When I'm not coding, you'll
+            find me exploring new technologies or contributing to open source
+            projects.
+          </p>
+          <p class="fade-in-up">
+            With several years of experience in web development, I've worked on
+            projects ranging from small business websites to large-scale
+            applications. I'm committed to continuous learning and staying
+            updated with the latest industry trends.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card fade-in-up">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5 & CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+          <div class="skill-card fade-in-up">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>REST APIs</li>
+            </ul>
+          </div>
+          <div class="skill-card fade-in-up">
+            <h3>Tools & Others</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>VS Code</li>
+              <li>npm</li>
+              <li>Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <!-- E-Commerce Platform -->
+          <div class="project-card fade-in-up">
+            <div class="project-image">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                <defs>
+                  <linearGradient id="cartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <circle cx="100" cy="100" r="95" fill="none" stroke="url(#cartGradient)" stroke-width="2" opacity="0.3"/>
+                <path class="cart-path" d="M 50 80 L 60 120 Q 60 130 70 130 L 140 130 Q 150 130 150 120 L 160 80" stroke="#7c3aed" stroke-width="3" fill="none" stroke-linecap="round"/>
+                <circle class="wheel-1" cx="75" cy="135" r="5" fill="#06b6d4"/>
+                <circle class="wheel-2" cx="135" cy="135" r="5" fill="#06b6d4"/>
+                <g class="items-group">
+                  <rect x="70" y="95" width="20" height="15" fill="#f97316" opacity="0.7" rx="2"/>
+                  <rect x="100" y="100" width="18" height="12" fill="#10b981" opacity="0.7" rx="2"/>
+                </g>
+              </svg>
+            </div>
+            <h3>E-Commerce Platform</h3>
+            <p>
+              A full-stack e-commerce solution built with React and Node.js.
+              Features include product catalog, shopping cart, and secure
+              checkout.
+            </p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+
+          <!-- Task Management App -->
+          <div class="project-card fade-in-up">
+            <div class="project-image">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                <defs>
+                  <linearGradient id="taskGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <circle cx="100" cy="100" r="95" fill="none" stroke="url(#taskGradient)" stroke-width="2" opacity="0.3"/>
+                <g class="checklist">
+                  <rect x="50" y="70" width="100" height="70" fill="none" stroke="#f97316" stroke-width="2" rx="5"/>
+                  <line x1="60" y1="85" x2="140" y2="85" stroke="#06b6d4" stroke-width="1" opacity="0.5"/>
+                  <line x1="60" y1="100" x2="140" y2="100" stroke="#06b6d4" stroke-width="1" opacity="0.5"/>
+                  <line x1="60" y1="115" x2="140" y2="115" stroke="#06b6d4" stroke-width="1" opacity="0.5"/>
+                </g>
+                <g class="checkmarks">
+                  <circle class="check-1" cx="55" cy="85" r="4" fill="none" stroke="#10b981" stroke-width="2"/>
+                  <polyline class="check-mark-1" points="52,85 55,88 59,84" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" opacity="0"/>
+
+                  <circle class="check-2" cx="55" cy="100" r="4" fill="none" stroke="#10b981" stroke-width="2"/>
+                  <polyline class="check-mark-2" points="52,100 55,103 59,99" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" opacity="0"/>
+                </g>
+              </svg>
+            </div>
+            <h3>Task Management App</h3>
+            <p>
+              A productivity app for managing tasks and projects. Includes
+              real-time collaboration features and intuitive user interface.
+            </p>
+            <div class="project-tags">
+              <span>JavaScript</span>
+              <span>Firebase</span>
+              <span>CSS3</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+
+          <!-- Weather Dashboard -->
+          <div class="project-card fade-in-up">
+            <div class="project-image">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                <defs>
+                  <linearGradient id="weatherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <circle cx="100" cy="100" r="95" fill="none" stroke="url(#weatherGradient)" stroke-width="2" opacity="0.3"/>
+                <circle class="sun" cx="80" cy="75" r="15" fill="#f97316"/>
+                <g class="sun-rays">
+                  <line x1="80" y1="55" x2="80" y2="45" stroke="#f97316" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="100" y1="65" x2="108" y2="57" stroke="#f97316" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="105" y1="85" x2="115" y2="85" stroke="#f97316" stroke-width="2" stroke-linecap="round"/>
+                </g>
+                <path class="cloud" d="M 70 120 Q 50 120 50 110 Q 50 100 60 100 Q 65 85 80 85 Q 95 85 100 100 Q 110 100 110 110 Q 110 120 90 120 Z" fill="#7c3aed" opacity="0.7"/>
+                <g class="rain-drops">
+                  <line class="drop-1" x1="75" y1="125" x2="73" y2="135" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+                  <line class="drop-2" x1="90" y1="125" x2="88" y2="135" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+                  <line class="drop-3" x1="105" y1="125" x2="103" y2="135" stroke="#06b6d4" stroke-width="2" stroke-linecap="round"/>
+                </g>
+              </svg>
+            </div>
+            <h3>Weather Dashboard</h3>
+            <p>
+              A real-time weather application with location-based forecasts.
+              Displays current conditions, hourly and weekly forecasts.
+            </p>
+            <div class="project-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>APIs</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+
+          <!-- Blog Platform -->
+          <div class="project-card fade-in-up">
+            <div class="project-image">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="project-svg">
+                <defs>
+                  <linearGradient id="blogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+                <circle cx="100" cy="100" r="95" fill="none" stroke="url(#blogGradient)" stroke-width="2" opacity="0.3"/>
+                <g class="pages">
+                  <rect class="page-1" x="55" y="70" width="60" height="65" fill="none" stroke="#10b981" stroke-width="2" rx="4"/>
+                  <line x1="65" y1="80" x2="105" y2="80" stroke="#7c3aed" stroke-width="1.5"/>
+                  <line x1="65" y1="90" x2="105" y2="90" stroke="#7c3aed" stroke-width="1.5"/>
+                  <line x1="65" y1="100" x2="105" y2="100" stroke="#7c3aed" stroke-width="1.5"/>
+                  <line x1="65" y1="110" x2="100" y2="110" stroke="#7c3aed" stroke-width="1.5"/>
+                  <line x1="65" y1="120" x2="105" y2="120" stroke="#7c3aed" stroke-width="1.5"/>
+                </g>
+                <g class="pen">
+                  <line class="pen-line" x1="130" y1="60" x2="145" y2="90" stroke="#f97316" stroke-width="3" stroke-linecap="round"/>
+                  <circle class="pen-dot" cx="145" cy="90" r="3" fill="#f97316"/>
+                </g>
+              </svg>
+            </div>
+            <h3>Blog Platform</h3>
+            <p>
+              A modern blogging platform with markdown support, user
+              authentication, and content management system.
+            </p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Express</span>
+              <span>PostgreSQL</span>
+            </div>
+            <a href="#" class="project-link">View Project →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">
+          I'm always interested in hearing about new projects and opportunities.
+        </p>
+        <div class="contact-content">
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Your Email" required />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+            <div class="form-message"></div>
+          </form>
+          <div class="contact-info">
+            <div class="info-item">
+              <h3>Email</h3>
+              <p>adityashahi7662@gmail.com</p>
+            </div>
+            <div class="info-item">
+              <h3>Location</h3>
+              <p>Noida, India</p>
+            </div>
+            <div class="info-item">
+              <h3>Follow</h3>
+              <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2026 Aditya Shahi. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
